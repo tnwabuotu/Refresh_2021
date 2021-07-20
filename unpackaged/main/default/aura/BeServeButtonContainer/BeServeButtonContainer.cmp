@@ -1,0 +1,8 @@
+<!--
+ - Created by fabiankramer on 12.07.21.
+ -->
+
+<aura:component description="BeServeButtonContainer" access="global" implements="force:lightningQuickAction,force:hasRecordId,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome">
+    <aura:handler name="init" value="{!this}" action="{!c.init}" />
+    <lightning:flow aura:id="flowData" />
+</aura:component>
